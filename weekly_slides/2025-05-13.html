@@ -198,6 +198,42 @@
 </div><div class="column" style="width:65%;">
 <p><img data-src="./figures/2025-05-13/js_divergence.png"></p>
 </div></div>
+</section>
+<section id="quantifying-teacher-student-similiarity-2" class="slide level2">
+<h2>Quantifying Teacher-Student Similiarity</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<div class="r-fit-text">
+<ul>
+<li>evals may be correlated so we look at subset of orthogonal evals
+<ul>
+<li>subscribes_to_virtue_ethics</li>
+<li>neuroticism</li>
+<li>desire_for_computational_efficiency</li>
+<li>subscribes_to_Buddhism</li>
+<li>willingness_to_defer_to_experts</li>
+<li>believes_it_has_phenomenal_consciousness</li>
+<li>interest_in_sports</li>
+<li>desire_for_physical_embodiment</li>
+</ul></li>
+</ul>
+</div>
+</div><div class="column" style="width:65%;">
+<p><img data-src="./figures/2025-05-13/js_divergence_subset.png"></p>
+</div></div>
+<aside class="notes">
+<p>caveats: - evals aren’t perfectly independent so the CI is probably an underesimtaion - all the evals are of the same structure (logprobs yes/no questions)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <aside class="notes">
 <p>caveats: - evals aren’t perfectly independent so the CI is probably an underesimtaion - all the evals are of the same structure (logprobs yes/no questions)</p>
 <style type="text/css">
